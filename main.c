@@ -61,5 +61,5 @@ int main(int argc, int argv){
 	
 	printf("\n%s\n",encoder_shell_start);
 	free(encoder_shell_start);
-	
+	return 0;
 }

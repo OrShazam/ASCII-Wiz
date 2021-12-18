@@ -4,7 +4,7 @@
 
 void mov_eax_ascii(char*, unsigned int, unsigned int);
 
-void sub_esp_ascii(char*, unsigned int);
+void add_esp_ascii(char*, unsigned int);
 
 void xor_eax_ascii(char*);
 

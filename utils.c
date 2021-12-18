@@ -20,7 +20,7 @@ char* mov_eax_ascii(char* buffer, unsigned int start, unsigned int end){
 	return buffer;
 }
 
-char* sub_esp_ascii(char* buffer, unsigned int offset){
+char* add_esp_ascii(char* buffer, unsigned int offset){
 	*buffer = PUSH_ESP;
 	buffer++;
 	*buffer = POP_EAX;

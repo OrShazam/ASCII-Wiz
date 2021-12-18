@@ -40,7 +40,7 @@ char* xor_eax_ascii(char* buffer){
 	buffer += 4;
 	*buffer = AND_EAX;
 	buffer++;
-	*((unsigned int*)buffer) = AND_COMBO_1
+	*((unsigned int*)buffer) = AND_COMBO_2
 	buffer += 4;
 	return buffer;
 }

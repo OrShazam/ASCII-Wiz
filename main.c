@@ -36,7 +36,7 @@ int main(int argc, int argv){
 		return 1;
 	}
 	char* encoder_shell_start = encoder_shell;
-	encoder_shell = sub_esp_ascii(
+	encoder_shell = add_esp_ascii(
 		encoder_shell,OFFSET_BUFFER + encoder_size + shell_padded_size);
 	
 	encoder_shell = xor_eax_ascii(encoder_shell);
